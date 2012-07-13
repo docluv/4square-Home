@@ -1,0 +1,111 @@
+body
+{
+  color: #000;
+  font-family: "Segoe UI" , "Segoe WP" , "ASAP", SegoeWP, Helvetica, Arial, tahoma;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+    background-color:#11619C;   
+}
+
+
+h2
+{
+    color:white;
+    font-size:24pt;
+    font-weight:100;
+}
+
+ul.horizontal-panels
+{
+  color: #000066;
+  font-weight: bold;
+  width: 1000px;
+}
+
+ul.horizontal-panels > li
+{
+  display:inline;
+ /* height: 380px;*/
+}
+
+ul.block-item-list
+{
+  margin:0px;
+  padding:0px; 
+  height: 400px;
+}
+
+li.double-panel,
+li.single-panel
+{
+  margin:0px;
+  padding:0px; 
+  display: inline;
+  float: left;
+  height: 400px;
+}
+
+li.double-panel
+{ 
+  width: 500px;
+}
+
+
+li.single-panel
+{
+  width:250px;
+}
+
+li.block-item-large
+{
+  border: none;
+  cursor: move;
+  display: inline-block;
+  height: 96px;
+  width: 96px;
+  padding: 4px;
+  margin: 12px 21px 12px 0px;
+  color: #FFFFFF;
+  background-color: #318AC6;
+  -webkit-box-shadow: 5px 5px 20px 0px #1a1b1f;
+  -moz-box-shadow: 5px 5px 20px 0px #1a1b1f;
+  box-shadow: 5px 5px 20px 0px #1a1b1f;
+}
+
+
+li.block-item-medium
+{
+  border: thin solid #FFFFFF;
+  cursor: move;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  padding: 4px;
+  margin: 10px 20px 13px 0px;
+  color: #FFFFFF;
+  background-color: #318AC6;
+}
+
+
+li.block-item-wide
+{
+  border: thin solid #FFFFFF;
+  cursor: move;
+  display: inline-block;
+  height: 84px;
+  width: 168px;
+  padding: 4px;
+  margin: 10px 20px 13px 0px;
+  position: relative;
+  color: #FFFFFF;
+  background-color: #318AC6;
+}
+
+div.main-wrapper
+{
+  height:600px;
+  width:100%;
+  margin:0px;
+  padding:0px; 
+}
